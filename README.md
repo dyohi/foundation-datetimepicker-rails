@@ -10,6 +10,7 @@ Add this line to your application's Gemfile:
 
 Add the following directive to your Javascript manifest file (`application.js`):
 
+    //= require moment.min
     //= require foundation-datetimepicker
 
 Add the following line to your stylesheet file (`foundation_and_overrides.scss`):
