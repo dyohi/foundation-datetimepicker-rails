@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-require 'lib/foundation-datetimepicker-rails/version'
+$:.push File.expand_path("../lib", __FILE__)
+require 'foundation-datetimepicker-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "foundation-datetimepicker-rails"
-  gem.version       = FoundationDatetimepicker::Rails::VERSION
+  gem.version       = FoundationDatetimepicker::VERSION
   gem.authors       = ["David Oshiro"]
   gem.email         = ["david@davidoshiro.com"]
   gem.description   = %q{This gem packages the foundation-datetimepicker (JavaScripts & stylesheets) for Rails 3.2+ asset pipeline}
