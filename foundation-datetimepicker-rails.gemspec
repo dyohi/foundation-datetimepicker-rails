@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
-require 'foundation-datetimepicker-rails/version'
+require 'lib/foundation-datetimepicker-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "foundation-datetimepicker-rails"
