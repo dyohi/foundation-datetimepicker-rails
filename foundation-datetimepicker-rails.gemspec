@@ -4,7 +4,7 @@ require 'foundation-datetimepicker-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "foundation-datetimepicker-rails"
-  gem.version       = FoundationDatetimepicker::VERSION
+  gem.version       = '1.0.0'
   gem.authors       = ["David Oshiro"]
   gem.email         = ["david@davidoshiro.com"]
   gem.description   = %q{This gem packages the foundation-datetimepicker (JavaScripts & stylesheets) for Rails 3.2+ asset pipeline}
